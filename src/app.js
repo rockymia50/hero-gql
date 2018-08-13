@@ -11,7 +11,7 @@ app.use('/graphql', graphqlHTTP ({
     graphiql: true,
     schema,
     context:{
-        userID: 1
+        userId: 1
     }
 
 }));
